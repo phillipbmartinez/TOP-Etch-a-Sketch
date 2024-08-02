@@ -1,14 +1,13 @@
 #containerDiv{
     width: 600px;
     height: 600px;
-    text-align: center;
     margin: 0 auto;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
+    align-content: normal;
     border: solid 1px black;
-    flex: 1;
-    align-content: stretch;
+    gap: 0;
 }
 #gridBtnContainer{
     text-align: center;
